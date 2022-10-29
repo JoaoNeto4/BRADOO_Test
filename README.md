@@ -14,7 +14,7 @@ $ sudo apt-get install docker-compose
 
 ### Clone this repository
 ```
-$ git clone https://github.com/JoaoNeto4/BRADOO_Test
+$ git clone https://github.com/JoaoNeto4/BRADOO_Test.git
 ```
 
 ### Navigate to the "api" folder
@@ -25,6 +25,13 @@ $ cd BRADOO_Test/api
 ### Start the containers
 ```
 $ docker-compose up --build
+```
+> **Note**
+> If there is some kind of permission error, run this:
+```
+$ sudo gpasswd -a $USER docker
+$ newgrp docker
+$ docker-compose up
 ```
 
 ### Run this line and copy the "ID" of the container "api_web"
