@@ -1,6 +1,9 @@
 ## BRADOO_Test
 
 
+## Description
+- Rest API project developed using Django, Django Framework and PostgreSQL, with the objective of evaluating technical skills.
+
 
 ## Prerequisites
 ```
