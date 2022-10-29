@@ -54,7 +54,7 @@ $ python manage.py migrate
 
 ### Valid endpoints
 ```
-http://localhost:8000/vendrs/
+http://localhost:8000/vendors/
 http://localhost:8000/products/
 ```
 
